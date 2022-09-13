@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header__container{
+    width: 1110px;
+}
+
+.header__menu{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header__text{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.header__select #select_phone{
+    background: none;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+.header__icons{
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_icon{
+    width: 23px;
+    height: 23px;
+    position: relative;
+}
+
+.header__favourite img{
+    position: relative;
+}
+
+.header__count{
+    content: '21';
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: #FFA542;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__shop::after{
+    content: '22';
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: #FFA542;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    cursor: pointer;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__icons img{
+    /* width: 100%; */
+    height: 100%;
+    cursor: pointer;
+}
+
+.header__shop{
+    width: 25px;
+    height: 25px;
+}
+
+.header__intro{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    margin: 22px 0 0 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header__intro-block{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__intro-text{
+    width: 300px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content_title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #838383;
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.cases__container{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cases__block{
+    height: 407.6470642089844px;
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0 0;
+}
+
+.cases__type{
+    /* height: 160px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}
+
+.cases__name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.cases__amount{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hwb(0 0% 100% / 0.871);
+    margin: 0 10px;
+    display: inline-block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.headphones__container{
+    width: 1110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.headphones__block{
+    width: 350px;
+    height: 407.65px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.headphones__img, .earpods__img{
+    height: 239px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favourite_icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.headphones__text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headphones__name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.headphones__rating{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.headphones__rating > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #838383;
+    margin-left: 6px;
+}
+
+.headphones__price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFA542;
+
+}
+
+.earpods__container{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.earpods__block{
+    width: 350px;
+    height: 407.65px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.earpods__text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.earpods__name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C1C27;
+}
+
+.earpods__rating{
+    margin-top: 26px;
+}
+
+.earpods__rating > span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #838383;
+}
+
+.earpods__price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFA542;
+}
+
+.footer__container{
+    width: 1110px;
+    height: 149px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 60px;
+    padding: 33px 30px 33px;
+}
+
+.footer__wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer__block{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+}
+
+.footer__icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__icons img{
+    width: 100%;
+}
+
+.footer__langs{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #101010;
+}
+
+.footer__langs span:nth-child(3){
+    color: #FFA542;
+}
+
+.last__price{
+    text-decoration: line-through;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .6);
+}
+
